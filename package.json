@@ -1,0 +1,23 @@
+{ 
+  "name": "eduonixform", 
+  "version": "1.0.0", 
+  "main": "index.js",  
+  
+  "scripts": { 
+    "test": "jest" 
+  }, 
+ 
+  "devDependencies": { 
+    "jest": "^29.5.0" ,
+    "@babel/preset-env": "^7.18.10"
+  }, 
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "keywords": [], 
+  "author": "", 
+  "license": "ISC", 
+  "description": "" 
+} 
